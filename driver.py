@@ -130,6 +130,7 @@ class MainWindow(tk.Frame):
                 console.log(console.E, 'Year not an integer')
 
             room_request = ts.Room(id_, year=year, month=month, day=day)
+            self.process(room_request)
 
         else:
             room_request = ts.Room(id_)
