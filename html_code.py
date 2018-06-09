@@ -1,5 +1,7 @@
 import re
 
+__doc__ = "Library to parse html code and convert them to their equivalent ascii values."
+
 __all__ = ['char', 'replace']
 
 def char(character):
