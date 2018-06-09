@@ -13,6 +13,6 @@ The module used to log all the events.
 
 Example to get all messages:
 
-import transcript as ts
-room = ts.Room(6)
-print(room.messages())
+    import transcript as ts
+    room = ts.Room(6)
+    print(room.messages())
